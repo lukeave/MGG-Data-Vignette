@@ -1,0 +1,89 @@
+---
+title: "vignette"
+filters:
+  - shinylive
+format:
+  html:
+    resources: 
+      - shinylive-sw.js
+---
+[intro here]
+
+-   brief context: 1960s, 1970s, 1980s, and 1990s
+
+-   some literature review: Chauncey about the second half of the century, queer theorists, gender and space, AIDS and Health
+
+-   state the problem: digital methodologies allowed us to approach the data from a macroscopic point of view to understand change over time. The analysis points to a drastic rupture in the queer landscape in the early 1990s in response to the AIDS crisis.
+
+    ## What does it mean to manage big historical data?
+
+-   background of the project: transcription, data management, cleaning, geocoding, categorizations, and turning historical information into normalized data over time
+
+    ## Exploratory Data Analysis: How to ask questions?
+
+-   Roughly describe a path toward asking the question of how cruisy locations have changed over time. Discuss how that question was even attainable in the first place, and what about the cruisy category called my attention.
+
+-   Engage with pre-existing literature again here: must state that a previous knowledge of historical context must always inform the digital, not the other way around. I knew that the AIDS crisis happened in the 1980s and 1990s, so I expected some change in that moment. I also knew that gay men appropriated and used public spaces differently before and after the AIDS crisis, and because cruisy locations were often public spaces (i.e., beaches, public squares, parks, etc), I knew where to look for that change.
+
+-   here, include a Shiny App showing change over time.
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+library(shiny)
+library(bslib)
+
+# Define UI for app that draws a histogram ----
+ui <- page_sidebar(
+  sidebar = sidebar(open = "open",
+    numericInput("n", "Sample count", 100),
+    checkboxInput("pause", "Pause", FALSE),
+  ),
+  plotOutput("plot", width=3000)
+)
+
+server <- function(input, output, session) {
+  data <- reactive({
+    input$resample
+    if (!isTRUE(input$pause)) {
+      invalidateLater(1000)
+    }
+    rnorm(input$n)
+  })
+  
+  output$plot <- renderPlot({
+    hist(data(),
+      breaks = 40,
+      xlim = c(-2, 2),
+      ylim = c(0, 1),
+      lty = "blank",
+      xlab = "value",
+      freq = FALSE,
+      main = ""
+    )
+    
+    x <- seq(from = -2, to = 2, length.out = 500)
+    y <- dnorm(x)
+    lines(x, y, lwd=1.5)
+    
+    lwd <- 5
+    abline(v=0, col="red", lwd=lwd, lty=2)
+    abline(v=mean(data()), col="blue", lwd=lwd, lty=1)
+
+    legend(legend = c("Normal", "Mean", "Sample mean"),
+      col = c("black", "red", "blue"),
+      lty = c(1, 2, 1),
+      lwd = c(1, lwd, lwd),
+      x = 1,
+      y = 0.9
+    )
+  }, res=140)
+}
+
+# Create Shiny app ----
+shinyApp(ui = ui, server = server)
+```
+
+    ## So what? Why digital methods for this question?
+
+-   The pervasive nature of the rupture caused by the AIDS crisis has been discussed but never truly visualized or mapped. Mapping the ways in which gay men oriented themselves to change their spatial practices of encounters and sexual pleasure hidden from the straight world helps us understand the extent of that crisis, and the associations made between "infectious diseases" and homosexuality.
