@@ -1,4 +1,5 @@
 library(tidyverse)
+library(stringr)
 completedata <- read.csv("data/data.csv")
 old.data <- read.csv("../Data Vignette [second iteration]/data/mggcompletedata.csv") # for comparison
 
@@ -262,10 +263,39 @@ completedata$category <- ifelse(grepl('Religious', completedata$type), "Religiou
                                                                                                                                                                                                                                    ifelse(grepl("Campground", completedata$type), "Entertainment", "NA"))))))))))))))))))))))))))))))
 
 
+na_indices <- which(grepl("NA", completedata$category)) # check if there are still NAs in category
 
+# create a data frame with rows that need "type" fixed
 
-na_indices <- which(grepl("NA", completedata$category))
-
-for (i in na_indices) {
-    print(paste("row ID =", completedata[i, 1],"; original type = ", completedata[i, 5], ", year = ", completedata[i, 9]))
+raw_output <- character(0) # create an empty character vector
+for (i in na_indices) { # loop through the NA categories and store them in raw_output
+  raw_output <- c(raw_output, paste(
+    "row ID =", completedata[i, 1],
+    "; title =", completedata[i, 2],
+    "; description =", completedata[i, 3],
+    "; streetaddress =", completedata[i, 4],
+    "; originaltype =", completedata[i, 5], 
+    "; city =", completedata[i, 7], 
+    "; state =", completedata[i, 8],
+    "; year =", completedata[i, 9],
+    "; notes =", completedata[i, 10]
+  ))
 }
+
+# create df with raw_output data using RegEx
+error.data <- data.frame(
+  row_ID = as.integer(str_extract(raw_output, "(?<=row ID = )\\d+")),
+  title = str_extract(raw_output, "(?<=title = ).*?(?=; description =)"),
+  description = str_extract(raw_output, "(?<=description = ).*?(?=; streetaddress =)"),
+  streetaddress = str_extract(raw_output, "(?<=streetaddress = ).*?(?=; originaltype =)"),
+  originaltype = str_extract(raw_output, "(?<=originaltype = ).*?(?=; city =)"),
+  city = str_extract(raw_output, "(?<=city = ).*?(?=; state =)"),
+  state = str_extract(raw_output, "(?<=state = ).*?(?=; year =)"),
+  year = as.integer(str_extract(raw_output, "(?<=year = )\\d+")),
+  notes = str_extract(raw_output, "(?<=notes = )")
+)
+
+# trim white spaces
+error.data <- data.frame(lapply(error.data, trimws), stringsAsFactors = FALSE)
+
+# manually fix each type
