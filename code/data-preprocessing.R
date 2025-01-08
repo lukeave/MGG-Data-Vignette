@@ -1,0 +1,1 @@
+completedata <- read.csv("data/data.csv")
