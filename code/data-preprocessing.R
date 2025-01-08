@@ -264,8 +264,9 @@ completedata$category <- ifelse(grepl('Religious', completedata$type), "Religiou
 
 
 na_indices <- which(grepl("NA", completedata$category)) # check if there are still NAs in category
+# 178 rows with NA category
 
-# create a data frame with rows that need "type" fixed
+#### Fix missing types and categories ####
 
 raw_output <- character(0) # create an empty character vector
 for (i in na_indices) { # loop through the NA categories and store them in raw_output
@@ -282,7 +283,7 @@ for (i in na_indices) { # loop through the NA categories and store them in raw_o
   ))
 }
 
-# create df with raw_output data using RegEx
+# create data frame with raw_output data using RegEx
 error.data <- data.frame(
   row_ID = as.integer(str_extract(raw_output, "(?<=row ID = )\\d+")),
   title = str_extract(raw_output, "(?<=title = ).*?(?=; description =)"),
@@ -292,10 +293,11 @@ error.data <- data.frame(
   city = str_extract(raw_output, "(?<=city = ).*?(?=; state =)"),
   state = str_extract(raw_output, "(?<=state = ).*?(?=; year =)"),
   year = as.integer(str_extract(raw_output, "(?<=year = )\\d+")),
-  notes = str_extract(raw_output, "(?<=notes = )")
+  notes = str_extract(raw_output, "(?<=notes = ).*$")
 )
 
 # trim white spaces
 error.data <- data.frame(lapply(error.data, trimws), stringsAsFactors = FALSE)
 
-# manually fix each type
+# store error.data as a csv and manually fix each type
+write.csv(error.data, "data/missing-type-data.csv")
