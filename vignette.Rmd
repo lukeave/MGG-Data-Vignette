@@ -1,0 +1,54 @@
+---
+title: "vignette"
+author: "Lucas avelar"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[intro here]
+
+-   brief context: 1960s, 1970s, 1980s, and 1990s
+
+-   some literature review: 
+ -   the return to the "closet metaphor" in the second half of the century (Chauncey, Gay New York) 
+  - sexuality and space (Brown and Knopp, "Queering the Map")
+  - AIDS and Health (Jennifer Brier, Infectious Ideas)
+
+-   state the problem: digital methodologies allowed us to approach the data from a macroscopic point of view to understand change over time. The analysis points to a drastic rupture in the queer landscape in the early 1990s in response to the AIDS crisis.
+
+    ## What does it mean to manage big historical data?
+
+-   background of the project: transcription, data management, cleaning, geocoding, categorizations, and turning historical information into normalized data over time
+
+    ## Exploratory Data Analysis: How to ask questions?
+
+-   Roughly describe a path toward asking the question of how cruisy locations have changed over time. Discuss how that question was even attainable in the first place, and what about the cruisy category called my attention.
+
+-   Engage with pre-existing literature again here: must state that a previous knowledge of historical context must always inform the digital, not the other way around. I knew that the AIDS crisis happened in the 1980s and 1990s, so I expected some change in that moment. I also knew that gay men appropriated and used public spaces differently before and after the AIDS crisis, and because cruisy locations were often public spaces (i.e., beaches, public squares, parks, etc), I knew where to look for that change.
+
+-   here, include a leaflet map?
+
+```{r}
+
+```
+
+   
+    ## So what? Why digital methods for this question?
+
+-   The pervasive nature of the rupture caused by the AIDS crisis has been discussed but never truly visualized or mapped. Mapping the ways in which gay men oriented themselves to change their spatial practices of encounters and sexual pleasure hidden from the straight world helps us understand the extent of that crisis, and the associations made between "infectious diseases" and homosexuality.
+
+```{r}
+
+```
+
+    ## notes
+    
+- get rid of the address info
+- come up with list that says: city, year, cruisy Boolean, amount of locations (and maybe a% of the total of relative number)
+- create a faceted map: one map that is cruisy with density bubbles on it; another one  non-cruisy.
+- creatre a chart that alsso  shows the decrease. one line with the number of location in general skyrockets and the number of cruisy decreases.
+- 
