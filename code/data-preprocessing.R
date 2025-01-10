@@ -1,5 +1,7 @@
 library(tidyverse)
 library(stringr)
+
+
 completedata <- read.csv("data/data.csv")
 old.data <- read.csv("../Data Vignette [second iteration]/data/mggcompletedata.csv") # for comparison
 
@@ -16,6 +18,7 @@ na_indices <- which(is.na(completedata$lat) | is.na(completedata$lon)) # find NA
 print(na_indices)
 # 63 rows with NA lat/long values
 
+# fix lat/long manually
 for (i in na_indices) {
   print(paste("row ID =", completedata[i, 1],"; ", completedata[i, 7], ", ", completedata[i, 8]))
 }
@@ -188,7 +191,7 @@ PortlandOR <- 60670
 completedata[PortlandOR, 12] <- "45.515232"
 completedata[PortlandOR, 13] <- "-122.678385"
 
-new_na_indices <- which(is.na(completedata$lat) | is.na(completedata$lon)) # check if NA values in lat/lon are removed
+new_na_indices <- which(is.na(completedata$lat) | is.na(completedata$lon)) # check if NA values in lat/long are removed
 print(new_na_indices)
 
 #### Collapse types into new categories ####
@@ -263,7 +266,8 @@ completedata$category <- ifelse(grepl('Religious', completedata$type), "Religiou
                                                                                                                                                                                                                                    ifelse(grepl("Campground", completedata$type), "Accommodations", "NA"))))))))))))))))))))))))))))))
 
 
-na_indices <- which(grepl("NA", completedata$category)) # check if there are still NAs in category
+# check if there are still NAs in category
+na_indices <- which(grepl("NA", completedata$category))
 # 178 rows with NA category
 
 #### Fix missing types and categories ####
@@ -279,28 +283,86 @@ for (i in na_indices) { # loop through the NA categories and store them in raw_o
     "; city =", completedata[i, 7], 
     "; state =", completedata[i, 8],
     "; year =", completedata[i, 9],
-    "; notes =", completedata[i, 10]
+    "; notes =", completedata[i, 10],
+    "; ID =", completedata[i, 16]
   ))
 }
 
 # create data frame with raw_output data using RegEx
 error.data <- data.frame(
-  row_ID = as.integer(str_extract(raw_output, "(?<=row ID = )\\d+")),
+  row_id = as.integer(str_extract(raw_output, "(?<=row ID = )\\d+")),
   title = str_extract(raw_output, "(?<=title = ).*?(?=; description =)"),
   description = str_extract(raw_output, "(?<=description = ).*?(?=; streetaddress =)"),
   streetaddress = str_extract(raw_output, "(?<=streetaddress = ).*?(?=; originaltype =)"),
-  originaltype = str_extract(raw_output, "(?<=originaltype = ).*?(?=; city =)"),
+  type = str_extract(raw_output, "(?<=originaltype = ).*?(?=; city =)"),
   city = str_extract(raw_output, "(?<=city = ).*?(?=; state =)"),
   state = str_extract(raw_output, "(?<=state = ).*?(?=; year =)"),
-  year = as.integer(str_extract(raw_output, "(?<=year = )\\d+")),
-  notes = str_extract(raw_output, "(?<=notes = ).*$")
+  Year = as.integer(str_extract(raw_output, "(?<=year = )\\d+")),
+  notes = str_extract(raw_output, "(?<=notes = ).*?(?=; ID =)"),
+  ID = str_extract(raw_output, "(?<=ID = )\\S+$")
 )
 
 # trim white spaces
 error.data <- data.frame(lapply(error.data, trimws), stringsAsFactors = FALSE)
 
-# store error.data as a csv and manually fix each type
+# store error.data as a csv and manually fix each category
+## check back in the original guides for this
 write.csv(error.data, "data/missing-type-data.csv")
 
-# read manually completed df
-fixed.data <- read.csv("data/missing-type-data.csv")
+# read in the new fixed df
+fixed.data <- read.csv("data/fixed-type-data.csv")
+
+# merge fixed.data with completedata
+colnames(completedata)[1] <- "row_id"
+
+merged_data <- completedata %>% 
+  left_join(fixed.data, by = "ID", suffix = c(".original", ".fixed")) %>% 
+  mutate(across(
+    ends_with(".fixed"),
+    ~ coalesce(.x, get(sub(".fixed", ".original", cur_column())))
+  )) %>% 
+  select(-ends_with(".original")) %>% 
+  rename_with(~ sub(".fixed", "", .), ends_with(".fixed"))
+
+# rearrange columns in merged_data
+merged_data <- merged_data[, c(9, 7, 10, 11, 12, 13, 1, 14, 15, 16, 17, 2, 3, 4, 5, 6, 8, 18)]
+
+#### Prepare data for analysis #### 
+
+# remove unnecessary variables for analysis
+merged_data <- merged_data[,-17] #status
+merged_data <- merged_data[,-15] #geoAddress
+merged_data <- merged_data[,-12] #full.address
+merged_data <- merged_data[,-11] #notes
+
+# replace NAs and blank values in unclear_address with "unchecked"
+merged_data <- merged_data %>% 
+  mutate(unclear_address = replace_na(unclear_address, "unchecked"))
+
+merged_data <- merged_data %>% 
+  mutate(unclear_address = ifelse(unclear_address == "", "unchecked", unclear_address))
+
+# check for NAs in categories
+na_indices <- which(merged_data$category == "")
+print(na_indices)
+
+# create a new variable to denote "cruisy" factor for each location
+merged_data <- merged_data %>%
+  mutate(cruisy = ifelse(grepl('cruis', description), "TRUE",
+                         ifelse(grepl('Cruis', description), "TRUE", 
+                                ifelse(grepl('Cruis', amenityfeatures), "TRUE",
+                                       ifelse(grepl('Cruis', type), "TRUE", "FALSE")))))
+
+# create a new variable to denote "risky" factor for each location
+merged_data <- merged_data %>% 
+  mutate(risky = ifelse(grepl('AYOR', amenityfeatures), "TRUE",
+                      ifelse(grepl('HOT', amenityfeatures), "TRUE",
+                           ifelse(grepl('AYOR', description), "TRUE",
+                               ifelse(grepl('locally', description), "TRUE",
+                                   ifelse(grepl('HOT!', description), "TRUE", 
+                                        ifelse(grepl('hot)', description), "TRUE", "FALSE"))))))) 
+
+#get total count of locations 
+locations_count_per_year <- merged_data %>% 
+  group_by(Year) %>% 
+  summarize(count = n())

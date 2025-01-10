@@ -39,141 +39,140 @@ row_id,title,description,streetaddress,type,city,state,Year,notes,ID,category
 31027,Steel City Centurions,,,,Chattanooga,TN,2001,Location form Tool Box's description,2001-TN-7804,Bars
 31068,Jupiter Lounge,"from 10pm, clsd Sun",,,Austin,TX,2001,Location from the The Forum's description,2001-TX-7845,Bars
 31394,Pamela's,restaurant & bar,,,San Juan,PR,2001,Location form Numero Uno on the Beach's description,2001-PR-8171,Bars
-42019,Lava Hot Springs Inn,"776-5830 full brkfst, hot tubs, mineral pool",5 Portneuf Ave.,,Lava Hot Springs,ID,1996,,2002-AL-0011,Accommodations
-43869,Ice Palace,disco,,,Fire Island,NY,1996,location from Cherry Grove Beach Hotel's description,1996-ID-2452,Bars
-52462,Millar Street House,"PO Box 7281, 99901, 225-1258/(800) 287-1607 also kayak tours",,,Ketchikan,AK,1997,,1996-NY-4302,Accommodations
-54151,Out & About,Cable TV Channel 2 9pm Mon,,Entertainment & Recreation,Northampton,MA,1998,Unsure about category,1997-AK-6521,Entertainment
-54342,United Church of Christ,nr. Court St. (Exeter Cong. Church) 772-6221 10am Sun,21 Front St,Spiritual Groups,Exeter,NH,1998,,1998-MA-0984,Religious Institutions
-62765,Gray Rock Picnic Area,,Rt. 184 Groton,Cruising Areas,New London,CT,1990,-203,1998-NH-1175,Cruising Areas
-70753,The Annex,"627-1140 cruise bar, 10pm-7am Fri & Sat",673 Hudson St.,Men's Services,Greenwich Village,NY,1991,,1990-CT-1363,Entertainment
-70754,Cellblock 28 28,"733-3144 8pm-3am Mon-Thurs, 3pm-3am Sun",9th Ave,Men's Services,Greenwich Village,NY,1991,,1991-NY-3874,Entertainment
-70755,J's Hangout,"242-9292 midnight-8am, not sexually oriented",675 Hudson St.,Men's Services,Greenwich Village,NY,1991,,1991-NY-3875,Entertainment
-70756,The Locker Room,(9th Ave.) 459-4299,400 W. 14th St.,Men's Services,Greenwich Village,NY,1991,,1991-NY-3876,Entertainment
-70757,M.A.N,"#133, 535-3914 gay men's group for social nudism",486A Hudson,Men's Services,Greenwich Village,NY,1991,,1991-NY-3877,Entertainment
-70758,Men of All Colors Together,"(at Lesbian/Gay Community Center) 245-6366 Fri 7:45pm, call for various subgroups",,Men's Services,Greenwich Village,NY,1991,,1991-NY-3878,Entertainment
-73847,Mission News,"863-7380, 24hrs",2086 Mission St.,Erotica,San Francisco,CA,1992,,1991-NY-3879,Business
-74855,Kailua Maui Garden Estate,"SR Box 9, 86708, 572-9726 (800)258-8588 suites, apt. & bungalow, jacuzzi",,,"Haiku, Maui",HI,1992,"No type is listed, appears to be Accomodations",1992-CA-1198,Accommodations
-75803,Around the World Travel,"P.O. Box 482, 01945-0482, 631-8620 Ask for Bruce",,,Marblehead,MA,1992,,1992-HI-2206,Business
-79698,Green Carnation  Coffeehouse,"384-1940 7pm-midnight, til 2am Fri & Sat",1580 N. 'D' St. Ste. 7,,San Bernardino,CA,1993,NA,1992-MA-3154,Restaurants
-80536,Spanky's Delrey Beach,(NE 6th Ave.) 265-3268 3pm-2am,320 N. Federal Hwy,,Delray Beach,FL,1993,NA,1993-CA-0906,Entertainment
-81097,Kailua Maui Garden Estate,"572-9726 (800)258-8588 suites & bungalow, hot tub","SR Box 9, 96708",,"Haiku, Maui",HI,1993,NA,1993-FL-1744,Accommodations
-82167,Tall Pines Inn,649-9134 8pm-2am Fri-Sun,147 Frost Rd.,,Tyngsboro,MA,1993,NA,1993-HI-2305,Accommodations
-82310,Ken's Travel Bureau,531-3907 7 days a week,24738 Donald Ave.,,Redford,MI,1993,NA,1993-MA-3375,Business
-83226,Video Expo,272-7577,516 River St.,,Troy,NY,1993,NA,1993-MI-3518,Business
-83836,Yuppies,"547-0430 6pm-2am, gentlemen's bar",241 E. Main St.,,Mt. Pleasant,PA,1993,NA,1993-NY-4434,Bars
-84519,"Sea Horse Inn, The","749-5221 nr. gulf beaches, kitchenettes",1423 11th St.,,Port Aransas,TX,1993,NA,1993-PA-5044,Accommodations
-86691,Spanky's Delray Beach,(NE 6th Ave.) 265-3268 3pm-2am,320 N. Federal Hwy.,,Delray Beach,FL,1994,Not listed under a 'type',1993-TX-5727,Entertainment
-87211,Anfora's Dream,"PO Box 74030, LA, CA, 90004 (213)737-0731 rental condo",,,"Haiku, Maui",HI,1994,seems to be accommodations,1994-FL-1598,Accommodations
-87212,Kailua Maui Garden Estate,"SR Box 9, 96708 572-9726/(800)258-8588 suites & bungalow, hot tub",,,"Haiku, Maui",HI,1994,seems to be accommodations,1994-HI-2118,Accommodations
-88313,Ken's Travel Bureau,531-3907,24738 Donald Ave.,,Redford,MI,1994,Type is most likely Travel Tours,1994-HI-2119,Business
-89148,Video Expo,272-7577,516 River St.,,Troy,NY,1994,,1994-MI-3220,Business
-89740,Yuppies,"547-0430 6pm-2am, gentlemen's bar",241 E. Main St.,,Mt. Pleasant,PA,1994,no type listed,1994-NY-4055,Bars
-90974,Villa Ricomar,"Carretera 459, Barrio Jobos. Opens 9pm Fri-Sat, from 6pm Sun",8 Calle Paz,Bars,Isabela,PR,1995,,1994-PA-4647,Bars
-92045,Vintage Towers B&B,"894-4535 full brkfst, historical Queen Anne Mansion",302 N. Main St.,,Cloverdale,CA,1995,,1995-PR-0069,Accommodations
-92140,Spanky's Delray Beach,(NE 6th Ave.) 265-3268 3pm-2am,320 N. Federal Hwy.,,Delray Beach,FL,1995,No type is listed.,1995-CA-1140,Entertainment
-95859,Kailua Maui Garden Estate,"572-9726/ (800)258-8588 suites, cottages, hot tub","SR Box 9, 96708",,"Haiku, Maui",HI,1995,No type listed.,1995-FL-1235,Accommodations
-95860,Halfway to Hana House,572-1176 priv. studio w/ ocean view,,,"Haiku, Maui",HI,1995,No type listed.,1995-HI-4954,Accommodations
-95865,Hana Plantation Houses,248-7868/ (800)228-4262 reservation,"PO Box 249, 96713",,"Kalua Koi, Molokai",HI,1995,No type listed.,1995-HI-4955,Accommodations
-97353,Dehaven Valley Farm,('BA' beach),,,Fort Bragg,CA,1988,,1995-HI-4960,Accommodations
-98050,Stallion Polk at Ellis,,,,Polk Street Area,CA,1988,Gives no other information,1988-CA-0334,Bars
-98364,Somewhere Coffee House,(Sat. only),350 Farmington,Cafes,Hartford,CT,1988,,1988-CA-1031,Restaurants
-98822,New Image Fitness Center,(Rear),3400 S. Orange Blossom Trail,Health Clubs,Orlando,FL,1988,,1988-CT-1345,Gyms
-98867,Adult Entertainment Center,,7338 S. Tamiami Trail,,Sarasota,FL,1988,,1988-FL-1803,Business
-98927,Artie's,,5004 S. Dixie Hwy.,,West Palm Beach,FL,1988,,1988-FL-1848,Bars
-99491,Coachman Lounge,(Some L),911 E. Main St.,,Richmond,IN,1988,,1988-FL-1908,Bars
-99547,M .C .C . 6001 S.W. 14th St.,,,,Des Moines,IA,1988,,1988-IN-2472,Religious Institutions
-99662,G.L.U.E.,,"P.O. Box 34063, 40232",,Louisville,KY,1988,Pg. 207: not sure what this is?,1988-IA-2528,Bars
-99780,People's Court of Louisiana,,"P.O. Box 71291, N.O. 70172",,New Orleans,LA,1988,,1988-KY-2643,Bars
-99811,'Rest Stop',,I-20E,Cruising Areas,Ruston,LA,1988,,1988-LA-2761,Cruising Areas
-100001,'Rest Stop',on Sandwich Rd.,,Cruising Areas,Bourne,MA,1988,,1988-LA-2792,Cruising Areas
-100732,Gatsby's,(Disco) (D) (E— in rear) (Rt. 70),2310W. Marlton Pike,,Cherry Hill,NJ,1988,,1988-MA-2982,Bars
-100836,Adult Enter. Cntr.,W. side by Texaco Stn.,,,Lordsburg,NM,1988,,1988-NJ-3713,Entertainment
-101120,Jason's Park Royal,,23 W. 73rd St.,,Uptown,NY,1988,,1988-NM-3817,Bars
-101121,Jay's,,125th St. at 8th Ave.,,Uptown,NY,1988,,1988-NY-4101,Bars
-101155,Adult Fair,(Male flicks)(Jackson Heights),Astoria Blvd. at 90th St.,,Queens,NY,1988,,1988-NY-4102,Entertainment
-101284,Crook's Center,,610 Franklin St,,Chapel Hill,NC,1988,pg 297 questions,1988-NY-4136,Restaurants
-101285,U.N.C. -  Carroll Hall (1st & 2nd floors),,,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4265,Cruising Areas
-101286,U.N.C - Science Bldg. - Basement,,,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4266,Cruising Areas
-101287,U.N.C. - Bingham & Gardiner Halls,,,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4267,Cruising Areas
-101347,Adult Entertainment Center,,6804 Davis Circle,,Raleigh,NC,1988,,1988-NC-4268,Entertainment
-101688,Captain's Cabin,Tioga Hotel,257 N Broadway,,Coos Bay,OR,1988,question on how to enter pg. 313,1988-NC-4328,Bars
-101813,Golden Arrow,,134 E. Pittsburgh St.,,Greensburg,PA,1988,,1988-OR-4669,Bars
-101864,Backroom,(In back of Prelude),,,New Hope,PA,1988,,1988-PA-4794,Bars
-101910,Gay Dreams Radio,(2-3pm Sun.) 88.9 FM,,,Philadelphia,PA,1988,What do I label radio show as? pg 322,1988-PA-4845,Entertainment
-102223,Town & Country Book Store,,5005 Kingston,,Knoxville,TN,1988,,1988-PA-4891,Business
-102567,Zoo,(Cruise bar),2212 Converse,,Houston,TX,1988,,1988-TN-5204,Bars
-102620,Ab's Westernaire,,622 Roosevelt,,San Antonio,TX,1988,,1988-TX-5548,Bars
-102881,Adult Entertainment Center,(Upstairs),2nd & Pike,,Seattle,WA,1988,,1988-TX-5601,Entertainment
-108159,Fifty Folly Place,(803)571-4171,,For review,Charleston,SC,1989,,1988-WA-5862,Accommodations
-108208,Kings Inn,Best Western Motel,,For review,Pierre,SD,1989,,1989-SC-5002,Accommodations
-108231,Timberfell Lodge,(615)234-9272,"Rt. 11, P.O. Box 94A, 37743",For review,Greenville,TN,1989,,1989-SD-5051,Accommodations
-108290,Savage House,,167 8th Ave. N.,For review,Nashville,TN,1989,,1989-TN-5074,Accommodations
-108484,Freeway,Suite #160 (713)682-2002,,For review,Houston,TX,1989,,1989-TN-5133,Bars
-108504,Eurotan,(Tan & muscle toning),3701 Montrose,For review,Houston,TX,1989,,1989-TX-5327,Business
-108689,Gingerbread Man,,510 E. 500 South,For review,Salt Lake City,UT,1989,,1989-TX-5347,Accommodations
-108708,Hill Farm Inn,,"RR#2, P.O. Box 2015, 0525",For review,Arlington,VT,1989,,1989-UT-5532,Accommodations
-108713,Howden Cottage,,32 N. Champlain St.,For review,Burlington,VT,1989,,1989-VT-5551,Accommodations
-108721,Green Hope Farms,(Guest House) (802)533-7772,,For review,East Hardwick,VT,1989,,1989-VT-5556,Accommodations
-108728,"The Silver Fox, A Country Inn",,"RFD 1, P.O. Box 1222",For review,West Rutland,VT,1989,,1989-VT-5564,Accommodations
-108734,Honeysuckles Inn,(802) 496-6200,"P.O. Box 828, 05673",For review,Waitsfield,VT,1989,,1989-VT-5571,Accommodations
-108739,AGCA,(703)684-0444,"P.O. Box 19401, 22320",For review,Alexandria,VA,1989,,1989-VT-5577,Organizations
-108762,Devonshire House,(703)533-0874,,For review,Falls Church,VA,1989,,1989-VA-5582,Accommodations
-108893,The Shafter Mansion,,907 14th Ave. E.,For review,Seattle,WA,1989,,1989-VA-5605,Accommodations
-108920,World Wide Video,,4602 E. Sprague,For review,Spokane,WA,1989,,1989-WA-5736,Business
-109082,Holding's Little America Lodge,,2200 W. Lincoln Way,For review,Cheyenne,WY,1989,(Jct. of I-25 & I-80),1989-WA-5763,Accommodations
-109259,'Rest Stop',3 mi. W.,US 56,Cruising Areas,Lyons,KS,1981,,1989-WY-5925,Cruising Areas
-111138,Hampton Beach,summers,,,Hampton,NH,1981,Cruising Area? Pg. 262 in pdf,1981-KS-0129,Entertainment
-111495,Klondike,(Beer & Wine),11616 Ventura Blvd.,Bars,Studio City,CA,1981,,1981-NH-2008,Bars
-112140,Niko's,(Disco)(WE*),925 Morgan St.,Bars,Raleigh,NC,1981,,1981-CA-2365,Bars
-112467,Pines West,,1380 Indian Ave.,Hotel,Palm Springs,CA,1981,,1981-NC-3010,Accommodations
-113156,Sunrise,(Disco),349 W. San Carlos,Bars,San Jose,CA,1981,,1981-CA-3337,Bars
-113282,The Lark,(Rte. 202 N.),302 Dekalb St.,Bars,Bridgeport,PA,1981,,1981-CA-4026,Bars
-120716,Gaslight,,1608 N. Cosmo,Bars,Hollywood,CA,1983,,1981-PA-4152,Bars
-120931,Griff's,(WE*),5574 Melrose Ave.,Bars,Hollywood,CA,1983,,1983-CA-2023,Bars
-120945,Gym Health Club,,5919 Franklin,Health Clubs,Hollywood,CA,1983,,1983-CA-2238,Gyms
-120961,Hampton Beach,summers,,,Hampton,NH,1983,,1983-CA-2252,Entertainment
-121080,Holiday Shop,(Travel),420 E. Broadway,Travel,Long Beach,CA,1983,,1983-NH-2268,Business
-121196,Ironworks,(Gym),8764 Holloway Dr.,Health Clubs,Hollywood,CA,1983,,1983-CA-2387,Gyms
-121205,Islander,(Some Latins),6907 Santa Fe,Bars,Huntington Park,CA,1983,,1983-CA-2503,Bars
-121434,Lambda Horizons,(Publication),"P.O. Box 663 Salem, OR 97308",Publications,Salem,OR,1983,,1983-CA-2512,Organizations
-121582,Long Beach Travel Service,,1617 E. 7th St.,Travel,Long Beach,CA,1983,,1983-OR-2741,Business
-121740,Maggie's,(Some L)(Disco)(WE*)(Liquor),1005 N. Fillmore,Bars,Amarillo,TX,1983,,1983-CA-2889,Bars
-121831,Maxine's,,Nellis & Charleston,Bars,Las Vegas,NV,1983,,1983-TX-3047,Bars
-122037,National Record Mart,,12th & Market,Shops,Wheeling,WV,1983,,1983-NV-3138,Business
-122223,Orange County Logging Co.,(Looks promising),12792 Brookhurts,,Garden Grove,CA,1983,,1983-WV-3344,Business
-122728,River Nest Lodge,(Rio Nido),,Hotel,Russian River,CA,1983,,1983-CA-3530,Accommodations
-122998,Silver Dollar,(Some L),2710 Asher Ave.,Bars,Little Rock,AR,1983,,1983-CA-4035,Bars
-123119,Stag,"(Some W, SM, OC) (Looking up)",5873 N. Atlantic Ave.,Bars,Long Beach,CA,1983,,1983-AR-4305,Bars
-123126,Stallion,,5823 N. Atlantic,Bars,Long Beach,CA,1983,,1983-CA-4426,Bars
-123244,Swingtime,,2820 Cummings,Bars,Omaha,NE,1983,,1983-CA-4433,Bars
-123313,The 1400 West Club,(Disco) (C-AH) (Occ. S),1400 W. Market St.,Bars,York,PA,1983,,1983-NE-4551,Bars
-123679,Union Jack,(clothing),1212 Westheimer,,Houston,TX,1983,,1983-PA-4620,Business
-123860,Whiskey Gulch Saloon,,1951 E. University Ave.,Bars,Palo Alto,CA,1983,,1983-TX-4986,Bars
-123866,White House,(Disco) (Cl. Sun.) 1/2 i mi. E. of Int. Waterway,Hwy. 501,Bars,Myrtle Beach,SC,1983,,1983-CA-5167,Bars
-126051,Gay & Lesbian Services of Kansas,,"Box O, Kansas Union, U, of K., Lawrence, 66044",,Lawrence,KS,1984,,1983-SC-5173,Organizations
-127174,Maxine's,,Nellies & Charleston,Bars,Las Vegas,NV,1984,,1984-KS-2060,Bars
-128053,Revel,"(Was trying for macho, W, but S now too)",Battleground Ave.,,Greensboro,NC,1984,,1984-NV-3183,Entertainment
-128659,Tap Room,Holiday Inn,803 N. 2nd St.,Hotel,Clarksville,TN,1984,,1984-NC-4062,Accommodations
-128735,The Inn at Two Village Square,Tel: (207) 646-5779,"P.O. Box 864, Ogonquit 03907",Hotel,Ogunquit,ME,1984,,1984-TN-4668,Accommodations
-128873,Trader & Trapper,,617 Center Ave,,Moorhead,MN,1984,,1984-ME-4744,Bars
-129808,Alum Rock Park,,,Cruising Areas,San Jose,CA,1985,,1984-MN-4882,Cruising Areas
-129885,Art Institute,(Thu. best),,Cruising Areas,Chicago,IL,1985,,1985-CA-0441,Cruising Areas
-136160,Cafe du Monde,(Very M & touristy),,Cafes,New Orleans,LA,1986,"French Market, Decatur & St. Ann",1985-IL-0518,Restaurants
-136265,Casbah,('Drags'),,,Bridgeport,CT,1986,Congress & Middle,1986-LA-1047,Bars
-136999,Eagle's Nest lounge,Holiday Inn,,Bars,Pittsfield,MA,1986,Lenox Rd.,1986-CT-1152,Bars
-137036,El Goya,(Disco) (Best Sun. & Tue.) (Burgers),1430 E. 7th Ave.,Bars,Tampa,FL,1986,(Ybor City),1986-MA-1886,Bars
-137325,G.I.G.D.A.,(317) 632-2457,,Bars,Indianapolis,IN,1986,What is this?,1986-FL-1923,Bars
-137593,Grand & Victoria,,,Cruising Areas,St. Paul,MN,1986,,1986-IN-2212,Cruising Areas
-137687,Hampton Beach,Summers,,,Hampton,NH,1986,,1986-MN-2480,Entertainment
-138846,Mug,,8612 Garden Grove Blvd.,,Garden Grove,CA,1986,,1986-NH-2574,Bars
-139149,Palace Adult Store,Williamson Rd. nr. Sears,,Shops,Roanoke,VA,1986,,1986-CA-3733,Business
-141354,Panchali's,,831 S. Escondido,Bars,Escondido,CA,1987,,1986-VA-4036,Bars
-142802,Brig,(W & Levi) At the Sea Gull,,,Miami Beach,FL,1987,,1987-CA-0338,Restaurants
-142854,Job Site,"(Some W, RT) Behind Red Carpet",,Bars,Pensacola,FL,1987,,1987-FL-1786,Bars
-143640,Lady's Choice,(Basement at Downtowner),105 W. Main St.,Bars,Louisville,KY,1987,"Pg. 196: copied address from entry ""Downtowner"" per description",1987-FL-1838,Bars
-144660,Glenwood Park,at Five Points,1622 Glenwood Ave.,,Raleigh,NC,1987,,1987-KY-2624,Entertainment
-144773,Owl & Pussycat,,109 2nd Ave.,,Asbury Park,NJ,1987,,1987-NC-3644,Bars
-144774,Key West Motel,,,,Asbury Park,NJ,1987,,1987-NJ-3757,Accommodations
-145452,Mans World,(Disco),2909 W. Detroit,,Cleveland,OH,1987,,1987-NJ-3758,Bars
-145794,Hillside Campgrounds,NA,,,Gibson,PA,1987,would I list a campground as a hotel,1987-OH-4436,Accommodations
-,,,,,,,,,1987-PA-4778,
+42019,Lava Hot Springs Inn,"776-5830 full brkfst, hot tubs, mineral pool",5 Portneuf Ave.,,Lava Hot Springs,ID,1996,,1996-ID-2452,Accommodations
+43869,Ice Palace,disco,,,Fire Island,NY,1996,location from Cherry Grove Beach Hotel's description,1996-NY-4302,Bars
+52462,Millar Street House,"PO Box 7281, 99901, 225-1258/(800) 287-1607 also kayak tours",,,Ketchikan,AK,1997,,1997-AK-6521,Accommodations
+54151,Out & About,Cable TV Channel 2 9pm Mon,,Entertainment & Recreation,Northampton,MA,1998,Unsure about category,1998-MA-0984,Entertainment
+54342,United Church of Christ,nr. Court St. (Exeter Cong. Church) 772-6221 10am Sun,21 Front St,Spiritual Groups,Exeter,NH,1998,,1998-NH-1175,Religious Institutions
+62765,Gray Rock Picnic Area,,Rt. 184 Groton,Cruising Areas,New London,CT,1990,-203,1990-CT-1363,Cruising Areas
+70753,The Annex,"627-1140 cruise bar, 10pm-7am Fri & Sat",673 Hudson St.,Men's Services,Greenwich Village,NY,1991,,1991-NY-3874,Entertainment
+70754,Cellblock 28 28,"733-3144 8pm-3am Mon-Thurs, 3pm-3am Sun",9th Ave,Men's Services,Greenwich Village,NY,1991,,1991-NY-3875,Entertainment
+70755,J's Hangout,"242-9292 midnight-8am, not sexually oriented",675 Hudson St.,Men's Services,Greenwich Village,NY,1991,,1991-NY-3876,Entertainment
+70756,The Locker Room,(9th Ave.) 459-4299,400 W. 14th St.,Men's Services,Greenwich Village,NY,1991,,1991-NY-3877,Entertainment
+70757,M.A.N,"#133, 535-3914 gay men's group for social nudism",486A Hudson,Men's Services,Greenwich Village,NY,1991,,1991-NY-3878,Entertainment
+70758,Men of All Colors Together,"(at Lesbian/Gay Community Center) 245-6366 Fri 7:45pm, call for various subgroups",,Men's Services,Greenwich Village,NY,1991,,1991-NY-3879,Entertainment
+73847,Mission News,"863-7380, 24hrs",2086 Mission St.,Erotica,San Francisco,CA,1992,,1992-CA-1198,Business
+74855,Kailua Maui Garden Estate,"SR Box 9, 86708, 572-9726 (800)258-8588 suites, apt. & bungalow, jacuzzi",,,"Haiku, Maui",HI,1992,"No type is listed, appears to be Accomodations",1992-HI-2206,Accommodations
+75803,Around the World Travel,"P.O. Box 482, 01945-0482, 631-8620 Ask for Bruce",,,Marblehead,MA,1992,,1992-MA-3154,Business
+79698,Green Carnation  Coffeehouse,"384-1940 7pm-midnight, til 2am Fri & Sat",1580 N. 'D' St. Ste. 7,,San Bernardino,CA,1993,NA,1993-CA-0906,Restaurants
+80536,Spanky's Delrey Beach,(NE 6th Ave.) 265-3268 3pm-2am,320 N. Federal Hwy,,Delray Beach,FL,1993,NA,1993-FL-1744,Entertainment
+81097,Kailua Maui Garden Estate,"572-9726 (800)258-8588 suites & bungalow, hot tub","SR Box 9, 96708",,"Haiku, Maui",HI,1993,NA,1993-HI-2305,Accommodations
+82167,Tall Pines Inn,649-9134 8pm-2am Fri-Sun,147 Frost Rd.,,Tyngsboro,MA,1993,NA,1993-MA-3375,Accommodations
+82310,Ken's Travel Bureau,531-3907 7 days a week,24738 Donald Ave.,,Redford,MI,1993,NA,1993-MI-3518,Business
+83226,Video Expo,272-7577,516 River St.,,Troy,NY,1993,NA,1993-NY-4434,Business
+83836,Yuppies,"547-0430 6pm-2am, gentlemen's bar",241 E. Main St.,,Mt. Pleasant,PA,1993,NA,1993-PA-5044,Bars
+84519,"Sea Horse Inn, The","749-5221 nr. gulf beaches, kitchenettes",1423 11th St.,,Port Aransas,TX,1993,NA,1993-TX-5727,Accommodations
+86691,Spanky's Delray Beach,(NE 6th Ave.) 265-3268 3pm-2am,320 N. Federal Hwy.,,Delray Beach,FL,1994,Not listed under a 'type',1994-FL-1598,Entertainment
+87211,Anfora's Dream,"PO Box 74030, LA, CA, 90004 (213)737-0731 rental condo",,,"Haiku, Maui",HI,1994,seems to be accommodations,1994-HI-2118,Accommodations
+87212,Kailua Maui Garden Estate,"SR Box 9, 96708 572-9726/(800)258-8588 suites & bungalow, hot tub",,,"Haiku, Maui",HI,1994,seems to be accommodations,1994-HI-2119,Accommodations
+88313,Ken's Travel Bureau,531-3907,24738 Donald Ave.,,Redford,MI,1994,Type is most likely Travel Tours,1994-MI-3220,Business
+89148,Video Expo,272-7577,516 River St.,,Troy,NY,1994,,1994-NY-4055,Business
+89740,Yuppies,"547-0430 6pm-2am, gentlemen's bar",241 E. Main St.,,Mt. Pleasant,PA,1994,no type listed,1994-PA-4647,Bars
+90974,Villa Ricomar,"Carretera 459, Barrio Jobos. Opens 9pm Fri-Sat, from 6pm Sun",8 Calle Paz,Bars,Isabela,PR,1995,,1995-PR-0069,Bars
+92045,Vintage Towers B&B,"894-4535 full brkfst, historical Queen Anne Mansion",302 N. Main St.,,Cloverdale,CA,1995,,1995-CA-1140,Accommodations
+92140,Spanky's Delray Beach,(NE 6th Ave.) 265-3268 3pm-2am,320 N. Federal Hwy.,,Delray Beach,FL,1995,No type is listed.,1995-FL-1235,Entertainment
+95859,Kailua Maui Garden Estate,"572-9726/ (800)258-8588 suites, cottages, hot tub","SR Box 9, 96708",,"Haiku, Maui",HI,1995,No type listed.,1995-HI-4954,Accommodations
+95860,Halfway to Hana House,572-1176 priv. studio w/ ocean view,,,"Haiku, Maui",HI,1995,No type listed.,1995-HI-4955,Accommodations
+95865,Hana Plantation Houses,248-7868/ (800)228-4262 reservation,"PO Box 249, 96713",,"Kalua Koi, Molokai",HI,1995,No type listed.,1995-HI-4960,Accommodations
+97353,Dehaven Valley Farm,('BA' beach),,,Fort Bragg,CA,1988,,1988-CA-0334,Accommodations
+98050,Stallion Polk at Ellis,,,,Polk Street Area,CA,1988,Gives no other information,1988-CA-1031,Bars
+98364,Somewhere Coffee House,(Sat. only),350 Farmington,Cafes,Hartford,CT,1988,,1988-CT-1345,Restaurants
+98822,New Image Fitness Center,(Rear),3400 S. Orange Blossom Trail,Health Clubs,Orlando,FL,1988,,1988-FL-1803,Gyms
+98867,Adult Entertainment Center,,7338 S. Tamiami Trail,,Sarasota,FL,1988,,1988-FL-1848,Business
+98927,Artie's,,5004 S. Dixie Hwy.,,West Palm Beach,FL,1988,,1988-FL-1908,Bars
+99491,Coachman Lounge,(Some L),911 E. Main St.,,Richmond,IN,1988,,1988-IN-2472,Bars
+99547,M .C .C . 6001 S.W. 14th St.,,,,Des Moines,IA,1988,,1988-IA-2528,Religious Institutions
+99662,G.L.U.E.,,"P.O. Box 34063, 40232",,Louisville,KY,1988,Pg. 207: not sure what this is?,1988-KY-2643,Bars
+99780,People's Court of Louisiana,,"P.O. Box 71291, N.O. 70172",,New Orleans,LA,1988,,1988-LA-2761,Bars
+99811,'Rest Stop',,I-20E,Cruising Areas,Ruston,LA,1988,,1988-LA-2792,Cruising Areas
+100001,'Rest Stop',on Sandwich Rd.,,Cruising Areas,Bourne,MA,1988,,1988-MA-2982,Cruising Areas
+100732,Gatsby's,(Disco) (D) (E— in rear) (Rt. 70),2310W. Marlton Pike,,Cherry Hill,NJ,1988,,1988-NJ-3713,Bars
+100836,Adult Enter. Cntr.,W. side by Texaco Stn.,,,Lordsburg,NM,1988,,1988-NM-3817,Entertainment
+101120,Jason's Park Royal,,23 W. 73rd St.,,Uptown,NY,1988,,1988-NY-4101,Bars
+101121,Jay's,,125th St. at 8th Ave.,,Uptown,NY,1988,,1988-NY-4102,Bars
+101155,Adult Fair,(Male flicks)(Jackson Heights),Astoria Blvd. at 90th St.,,Queens,NY,1988,,1988-NY-4136,Entertainment
+101284,Crook's Center,,610 Franklin St,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4265,Restaurants
+101285,U.N.C. -  Carroll Hall (1st & 2nd floors),,,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4266,Cruising Areas
+101286,U.N.C - Science Bldg. - Basement,,,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4267,Cruising Areas
+101287,U.N.C. - Bingham & Gardiner Halls,,,,Chapel Hill,NC,1988,pg 297 questions,1988-NC-4268,Cruising Areas
+101347,Adult Entertainment Center,,6804 Davis Circle,,Raleigh,NC,1988,,1988-NC-4328,Entertainment
+101688,Captain's Cabin,Tioga Hotel,257 N Broadway,,Coos Bay,OR,1988,question on how to enter pg. 313,1988-OR-4669,Bars
+101813,Golden Arrow,,134 E. Pittsburgh St.,,Greensburg,PA,1988,,1988-PA-4794,Bars
+101864,Backroom,(In back of Prelude),,,New Hope,PA,1988,,1988-PA-4845,Bars
+101910,Gay Dreams Radio,(2-3pm Sun.) 88.9 FM,,,Philadelphia,PA,1988,What do I label radio show as? pg 322,1988-PA-4891,Entertainment
+102223,Town & Country Book Store,,5005 Kingston,,Knoxville,TN,1988,,1988-TN-5204,Business
+102567,Zoo,(Cruise bar),2212 Converse,,Houston,TX,1988,,1988-TX-5548,Bars
+102620,Ab's Westernaire,,622 Roosevelt,,San Antonio,TX,1988,,1988-TX-5601,Bars
+102881,Adult Entertainment Center,(Upstairs),2nd & Pike,,Seattle,WA,1988,,1988-WA-5862,Entertainment
+108159,Fifty Folly Place,(803)571-4171,,For review,Charleston,SC,1989,,1989-SC-5002,Accommodations
+108208,Kings Inn,Best Western Motel,,For review,Pierre,SD,1989,,1989-SD-5051,Accommodations
+108231,Timberfell Lodge,(615)234-9272,"Rt. 11, P.O. Box 94A, 37743",For review,Greenville,TN,1989,,1989-TN-5074,Accommodations
+108290,Savage House,,167 8th Ave. N.,For review,Nashville,TN,1989,,1989-TN-5133,Accommodations
+108484,Freeway,Suite #160 (713)682-2002,,For review,Houston,TX,1989,,1989-TX-5327,Bars
+108504,Eurotan,(Tan & muscle toning),3701 Montrose,For review,Houston,TX,1989,,1989-TX-5347,Business
+108689,Gingerbread Man,,510 E. 500 South,For review,Salt Lake City,UT,1989,,1989-UT-5532,Accommodations
+108708,Hill Farm Inn,,"RR#2, P.O. Box 2015, 0525",For review,Arlington,VT,1989,,1989-VT-5551,Accommodations
+108713,Howden Cottage,,32 N. Champlain St.,For review,Burlington,VT,1989,,1989-VT-5556,Accommodations
+108721,Green Hope Farms,(Guest House) (802)533-7772,,For review,East Hardwick,VT,1989,,1989-VT-5564,Accommodations
+108728,"The Silver Fox, A Country Inn",,"RFD 1, P.O. Box 1222",For review,West Rutland,VT,1989,,1989-VT-5571,Accommodations
+108734,Honeysuckles Inn,(802) 496-6200,"P.O. Box 828, 05673",For review,Waitsfield,VT,1989,,1989-VT-5577,Accommodations
+108739,AGCA,(703)684-0444,"P.O. Box 19401, 22320",For review,Alexandria,VA,1989,,1989-VA-5582,Organizations
+108762,Devonshire House,(703)533-0874,,For review,Falls Church,VA,1989,,1989-VA-5605,Accommodations
+108893,The Shafter Mansion,,907 14th Ave. E.,For review,Seattle,WA,1989,,1989-WA-5736,Accommodations
+108920,World Wide Video,,4602 E. Sprague,For review,Spokane,WA,1989,,1989-WA-5763,Business
+109082,Holding's Little America Lodge,,2200 W. Lincoln Way,For review,Cheyenne,WY,1989,(Jct. of I-25 & I-80),1989-WY-5925,Accommodations
+109259,'Rest Stop',3 mi. W.,US 56,Cruising Areas,Lyons,KS,1981,,1981-KS-0129,Cruising Areas
+111138,Hampton Beach,summers,,,Hampton,NH,1981,Cruising Area? Pg. 262 in pdf,1981-NH-2008,Entertainment
+111495,Klondike,(Beer & Wine),11616 Ventura Blvd.,Bars,Studio City,CA,1981,,1981-CA-2365,Bars
+112140,Niko's,(Disco)(WE*),925 Morgan St.,Bars,Raleigh,NC,1981,,1981-NC-3010,Bars
+112467,Pines West,,1380 Indian Ave.,Hotel,Palm Springs,CA,1981,,1981-CA-3337,Accommodations
+113156,Sunrise,(Disco),349 W. San Carlos,Bars,San Jose,CA,1981,,1981-CA-4026,Bars
+113282,The Lark,(Rte. 202 N.),302 Dekalb St.,Bars,Bridgeport,PA,1981,,1981-PA-4152,Bars
+120716,Gaslight,,1608 N. Cosmo,Bars,Hollywood,CA,1983,,1983-CA-2023,Bars
+120931,Griff's,(WE*),5574 Melrose Ave.,Bars,Hollywood,CA,1983,,1983-CA-2238,Bars
+120945,Gym Health Club,,5919 Franklin,Health Clubs,Hollywood,CA,1983,,1983-CA-2252,Gyms
+120961,Hampton Beach,summers,,,Hampton,NH,1983,,1983-NH-2268,Entertainment
+121080,Holiday Shop,(Travel),420 E. Broadway,Travel,Long Beach,CA,1983,,1983-CA-2387,Business
+121196,Ironworks,(Gym),8764 Holloway Dr.,Health Clubs,Hollywood,CA,1983,,1983-CA-2503,Gyms
+121205,Islander,(Some Latins),6907 Santa Fe,Bars,Huntington Park,CA,1983,,1983-CA-2512,Bars
+121434,Lambda Horizons,(Publication),"P.O. Box 663 Salem, OR 97308",Publications,Salem,OR,1983,,1983-OR-2741,Organizations
+121582,Long Beach Travel Service,,1617 E. 7th St.,Travel,Long Beach,CA,1983,,1983-CA-2889,Business
+121740,Maggie's,(Some L)(Disco)(WE*)(Liquor),1005 N. Fillmore,Bars,Amarillo,TX,1983,,1983-TX-3047,Bars
+121831,Maxine's,,Nellis & Charleston,Bars,Las Vegas,NV,1983,,1983-NV-3138,Bars
+122037,National Record Mart,,12th & Market,Shops,Wheeling,WV,1983,,1983-WV-3344,Business
+122223,Orange County Logging Co.,(Looks promising),12792 Brookhurts,,Garden Grove,CA,1983,,1983-CA-3530,Business
+122728,River Nest Lodge,(Rio Nido),,Hotel,Russian River,CA,1983,,1983-CA-4035,Accommodations
+122998,Silver Dollar,(Some L),2710 Asher Ave.,Bars,Little Rock,AR,1983,,1983-AR-4305,Bars
+123119,Stag,"(Some W, SM, OC) (Looking up)",5873 N. Atlantic Ave.,Bars,Long Beach,CA,1983,,1983-CA-4426,Bars
+123126,Stallion,,5823 N. Atlantic,Bars,Long Beach,CA,1983,,1983-CA-4433,Bars
+123244,Swingtime,,2820 Cummings,Bars,Omaha,NE,1983,,1983-NE-4551,Bars
+123313,The 1400 West Club,(Disco) (C-AH) (Occ. S),1400 W. Market St.,Bars,York,PA,1983,,1983-PA-4620,Bars
+123679,Union Jack,(clothing),1212 Westheimer,,Houston,TX,1983,,1983-TX-4986,Business
+123860,Whiskey Gulch Saloon,,1951 E. University Ave.,Bars,Palo Alto,CA,1983,,1983-CA-5167,Bars
+123866,White House,(Disco) (Cl. Sun.) 1/2 i mi. E. of Int. Waterway,Hwy. 501,Bars,Myrtle Beach,SC,1983,,1983-SC-5173,Bars
+126051,Gay & Lesbian Services of Kansas,,"Box O, Kansas Union, U, of K., Lawrence, 66044",,Lawrence,KS,1984,,1984-KS-2060,Organizations
+127174,Maxine's,,Nellies & Charleston,Bars,Las Vegas,NV,1984,,1984-NV-3183,Bars
+128053,Revel,"(Was trying for macho, W, but S now too)",Battleground Ave.,,Greensboro,NC,1984,,1984-NC-4062,Entertainment
+128659,Tap Room,Holiday Inn,803 N. 2nd St.,Hotel,Clarksville,TN,1984,,1984-TN-4668,Accommodations
+128735,The Inn at Two Village Square,Tel: (207) 646-5779,"P.O. Box 864, Ogonquit 03907",Hotel,Ogunquit,ME,1984,,1984-ME-4744,Accommodations
+128873,Trader & Trapper,,617 Center Ave,,Moorhead,MN,1984,,1984-MN-4882,Bars
+129808,Alum Rock Park,,,Cruising Areas,San Jose,CA,1985,,1985-CA-0441,Cruising Areas
+129885,Art Institute,(Thu. best),,Cruising Areas,Chicago,IL,1985,,1985-IL-0518,Cruising Areas
+136160,Cafe du Monde,(Very M & touristy),,Cafes,New Orleans,LA,1986,"French Market, Decatur & St. Ann",1986-LA-1047,Restaurants
+136265,Casbah,('Drags'),,,Bridgeport,CT,1986,Congress & Middle,1986-CT-1152,Bars
+136999,Eagle's Nest lounge,Holiday Inn,,Bars,Pittsfield,MA,1986,Lenox Rd.,1986-MA-1886,Bars
+137036,El Goya,(Disco) (Best Sun. & Tue.) (Burgers),1430 E. 7th Ave.,Bars,Tampa,FL,1986,(Ybor City),1986-FL-1923,Bars
+137325,G.I.G.D.A.,(317) 632-2457,,Bars,Indianapolis,IN,1986,What is this?,1986-IN-2212,Bars
+137593,Grand & Victoria,,,Cruising Areas,St. Paul,MN,1986,,1986-MN-2480,Cruising Areas
+137687,Hampton Beach,Summers,,,Hampton,NH,1986,,1986-NH-2574,Entertainment
+138846,Mug,,8612 Garden Grove Blvd.,,Garden Grove,CA,1986,,1986-CA-3733,Bars
+139149,Palace Adult Store,Williamson Rd. nr. Sears,,Shops,Roanoke,VA,1986,,1986-VA-4036,Business
+141354,Panchali's,,831 S. Escondido,Bars,Escondido,CA,1987,,1987-CA-0338,Bars
+142802,Brig,(W & Levi) At the Sea Gull,,,Miami Beach,FL,1987,,1987-FL-1786,Restaurants
+142854,Job Site,"(Some W, RT) Behind Red Carpet",,Bars,Pensacola,FL,1987,,1987-FL-1838,Bars
+143640,Lady's Choice,(Basement at Downtowner),105 W. Main St.,Bars,Louisville,KY,1987,"Pg. 196: copied address from entry ""Downtowner"" per description",1987-KY-2624,Bars
+144660,Glenwood Park,at Five Points,1622 Glenwood Ave.,,Raleigh,NC,1987,,1987-NC-3644,Entertainment
+144773,Owl & Pussycat,,109 2nd Ave.,,Asbury Park,NJ,1987,,1987-NJ-3757,Bars
+144774,Key West Motel,,,,Asbury Park,NJ,1987,,1987-NJ-3758,Accommodations
+145452,Mans World,(Disco),2909 W. Detroit,,Cleveland,OH,1987,,1987-OH-4436,Bars
+145794,Hillside Campgrounds,NA,,,Gibson,PA,1987,would I list a campground as a hotel,1987-PA-4778,Accommodations
