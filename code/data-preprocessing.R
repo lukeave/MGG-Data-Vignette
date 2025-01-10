@@ -193,7 +193,7 @@ print(new_na_indices)
 
 #### Collapse types into new categories ####
 
-##Hierarchy of Analytic Categories
+## Hierarchy of Analytic Categories
 ## 1. Religious Institutions
 ### 1.1. Spiritual Groups
 ### 1.2. Church
@@ -253,14 +253,14 @@ completedata$category <- ifelse(grepl('Religious', completedata$type), "Religiou
                                                                                                                                                              ifelse(grepl('Community', completedata$type), "Organizations",
                                                                                                                                                                     ifelse(grepl('Publication', completedata$type), "Organizations",
                                                                                                                                                                            ifelse(grepl('Hotline', completedata$type), "Organizations",
-                                                                                                                                                                                  ifelse(grepl('Men', completedata$type), "Organizations",
+                                                                                                                                                                                  ifelse(grepl('Men', completedata$type), "Entertainment",
                                                                                                                                                                                          ifelse(grepl('Organization', completedata$type), "Organizations",
                                                                                                                                                                                                 ifelse(grepl('Cruis', completedata$type), "Cruising Areas",
                                                                                                                                                                                                        ifelse(grepl('Crusi', completedata$type), "Cruising Areas", 
                                                                                                                                                                                                               ifelse(grepl("Entertainment", completedata$type), "Entertainment", 
                                                                                                                                                                                                                      ifelse(grepl("Nightclubs", completedata$type), "Entertainment", 
                                                                                                                                                                                                                             ifelse(grepl("Sex Club", completedata$type), "Entertainment", 
-                                                                                                                                                                                                                                   ifelse(grepl("Campground", completedata$type), "Entertainment", "NA"))))))))))))))))))))))))))))))
+                                                                                                                                                                                                                                   ifelse(grepl("Campground", completedata$type), "Accommodations", "NA"))))))))))))))))))))))))))))))
 
 
 na_indices <- which(grepl("NA", completedata$category)) # check if there are still NAs in category
@@ -301,3 +301,6 @@ error.data <- data.frame(lapply(error.data, trimws), stringsAsFactors = FALSE)
 
 # store error.data as a csv and manually fix each type
 write.csv(error.data, "data/missing-type-data.csv")
+
+# read manually completed df
+fixed.data <- read.csv("data/missing-type-data.csv")
