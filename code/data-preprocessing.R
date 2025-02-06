@@ -2,8 +2,8 @@ library(tidyverse)
 library(stringr)
 
 
-completedata <- read.csv("data/data.csv")
-old.data <- read.csv("../Data Vignette [second iteration]/data/mggcompletedata.csv") # for comparison
+completedata <- read.csv("data/complete-mgg-data.csv")
+# old.data <- read.csv("../Data Vignette [second iteration]/data/mggcompletedata.csv") # compare most recent data set with the previous iteration if needed
 
 #### Fix Lat/Long errors ####
 
@@ -16,7 +16,7 @@ completedata$lat <- as.numeric(completedata$lat) # check if latitude only contai
 completedata$lon <- as.numeric(completedata$lon) # check if longitude only contain numeric values
 na_indices <- which(is.na(completedata$lat) | is.na(completedata$lon)) # find NA values in lat/lon
 print(na_indices)
-# 63 rows with NA lat/long values
+# 72 rows with NA lat/long values
 
 # fix lat/long manually
 for (i in na_indices) {
@@ -193,6 +193,7 @@ completedata[PortlandOR, 13] <- "-122.678385"
 
 new_na_indices <- which(is.na(completedata$lat) | is.na(completedata$lon)) # check if NA values in lat/long are removed
 print(new_na_indices)
+# no NAs
 
 #### Collapse types into new categories ####
 
@@ -330,31 +331,32 @@ merged_data <- merged_data[, c(9, 7, 10, 11, 12, 13, 1, 14, 15, 16, 17, 2, 3, 4,
 #### Prepare data for analysis #### 
 
 # remove unnecessary variables for analysis
-merged_data <- merged_data[,-17] #status
-merged_data <- merged_data[,-15] #geoAddress
-merged_data <- merged_data[,-12] #full.address
-merged_data <- merged_data[,-11] #notes
+data <- merged_data # create new data frame for analysis
+data <- data[,-17] #status
+data <- data[,-15] #geoAddress
+data <- data[,-12] #full.address
+data <- data[,-11] #notes
 
 # replace NAs and blank values in unclear_address with "unchecked"
-merged_data <- merged_data %>% 
+data <- data %>% 
   mutate(unclear_address = replace_na(unclear_address, "unchecked"))
 
-merged_data <- merged_data %>% 
+data <- data %>% 
   mutate(unclear_address = ifelse(unclear_address == "", "unchecked", unclear_address))
 
 # check for NAs in categories
-na_indices <- which(merged_data$category == "")
-print(na_indices)
+na_indices <- which(data$category == "")
+print(na_indices) # no NAs
 
 # create a new variable to denote "cruisy" factor for each location
-merged_data <- merged_data %>%
+data <- data %>%
   mutate(cruisy = ifelse(grepl('cruis', description), "TRUE",
                          ifelse(grepl('Cruis', description), "TRUE", 
                                 ifelse(grepl('Cruis', amenityfeatures), "TRUE",
                                        ifelse(grepl('Cruis', type), "TRUE", "FALSE")))))
 
 # create a new variable to denote "risky" factor for each location
-merged_data <- merged_data %>% 
+data <- data %>% 
   mutate(risky = ifelse(grepl('AYOR', amenityfeatures), "TRUE",
                       ifelse(grepl('HOT', amenityfeatures), "TRUE",
                            ifelse(grepl('AYOR', description), "TRUE",
@@ -362,7 +364,11 @@ merged_data <- merged_data %>%
                                    ifelse(grepl('HOT!', description), "TRUE", 
                                         ifelse(grepl('hot)', description), "TRUE", "FALSE"))))))) 
 
+write.csv(data, "data/data.csv") # store clean data as new file
+
 #get total count of locations 
-locations_count_per_year <- merged_data %>% 
+locations_count_per_year <- data %>% 
   group_by(Year) %>% 
   summarize(count = n())
+
+write.csv(locations_count_per_year, "data/location_count.csv") # store locations count as new file
