@@ -328,7 +328,7 @@ merged_data <- completedata %>%
 # rearrange columns in merged_data
 merged_data <- merged_data[, c(9, 7, 10, 11, 12, 13, 1, 14, 15, 16, 17, 2, 3, 4, 5, 6, 8, 18)]
 
-#### Prepare data for analysis #### 
+#### Create main data frame #### 
 
 # remove unnecessary variables for analysis
 data <- merged_data # create new data frame for analysis
@@ -365,10 +365,3 @@ data <- data %>%
                                         ifelse(grepl('hot)', description), "TRUE", "FALSE"))))))) 
 
 write.csv(data, "data/data.csv") # store clean data as new file
-
-#get total count of locations 
-locations_count_per_year <- data %>% 
-  group_by(Year) %>% 
-  summarize(count = n())
-
-write.csv(locations_count_per_year, "data/location_count.csv") # store locations count as new file
